@@ -16,3 +16,5 @@ $ ls
 $ git add FILENAME.FILEFORMAT
 $ git commit -m "COMMITTED MESSAGE" FILENAME
 $ git push -u origin master
+
+$ git status
