@@ -1,0 +1,87 @@
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Let me know what skills shold be improved</p>
+    
+    <form id="survey-form">
+      
+      <div>
+        <label for="name" id="name-label">
+          Name: 
+        </label>
+  
+        <input type="text" class="right-column" id="name" name="name" placeholder="Enter your name" required><br>
+  
+        <label for="email" id="email-label">
+          Email: 
+        </label>
+  
+        <input type="email" class="right-column" id="email" name="email" placeholder="Enter your email" required><br>
+  
+        <label for="number" id="number-label">
+          Age: 
+        </label>
+  
+        <input type="number" class="right-column" id="number" name="number" placeholder="Age" min="0.1" max="190"><br>
+      
+      </div>
+      <hr>
+      
+      <div>
+        <label for="drop-down" id="drop-down-label">
+          Which option best describes your current role?
+        </label>
+  
+        <select name="dropdown" class="right-column" id="dropdown" multiple>
+          <option value="student" selected>Student</option>
+          <option value="full-time-job">Full Time Job</option>
+          <option value="full-time-learner">Full Time Learner</option>
+          <option value="prefer-not-to-say">Prefer not to say</option>
+          <option value="other">Other</option>
+        </select><br>
+      </div>
+      <hr>
+      
+      <div>
+        <label>
+          How likely is that you would recommend me to a friend?
+        </label>
+  
+        <div class="right-column">
+          <input type="radio" name="recommend" value="definitely">Definitely<br>
+          <input type="radio" name="recommend" value="maybe">Maybe<br>
+          <input type="radio" name="recommend" value="not-sure">Not sure<br>
+        </div>
+      </div>
+      <hr>
+  
+      <div>
+        <label for="checkboxes">
+          Things that should be improved in the future<br>
+      (Check all that apply):
+        </label>
+  
+        <div class="right-column">
+          <input type="checkbox" value="front-end-projects">Front-end Projects<br>
+          <input type="checkbox" value="back-end-projects">Back-end Projects<br>
+          <input type="checkbox" value="data-visualization">Data Visualization<br>
+        </div>
+      </div>
+      <hr>
+  
+      <div>
+        <label for="textarea">
+          Any Comments or Suggestions?
+        </label>
+  
+        <textarea class="right-column"
+                  rows="4" cols="50" 
+                  placeholder="Enter your comment here..." 
+                  id="textarea"></textarea><br>
+      </div>
+      
+    <!--
+      <button type="submit" id="submit">Submit</button> 
+    -->
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </body>
