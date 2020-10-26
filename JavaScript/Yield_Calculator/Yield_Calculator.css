@@ -1,0 +1,112 @@
+*{
+  margin : 5px;
+  padding : 0px;
+}
+body {
+    background-color: #fff;
+    font-family: 'Roboto',sans-serif;
+    background: url(
+      "https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img(11\).jpg") 
+      no-repeat fixed center;
+    background-size: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 320px;
+}
+body h1{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 10px;
+}
+label{
+  color: #fff;
+}
+.box{
+  background: rgba(0,0,0,.8);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.5);
+  border-radius: 10px;
+  padding: 20px
+}
+.result{
+  color: #fff;
+}
+/*#t-value{
+  font-weight: bold;
+}*/
+.yield{
+  text-align: center;
+  color: #fff;
+  padding-top: 20px
+}
+.min-and-max{
+  margin-top: -10px;
+  margin-left: 57px;
+  width: 152px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  color: #FFFFF;
+  span:first-child{
+  margin-left: 10px;
+  }
+}
+
+#yield-range {
+    margin-top: 0px;
+    width: 130px;
+    &:focus {
+        &:focus {
+        outline: none;
+      }
+  }
+/*...*/
+}
+
+
+.rs-label {
+    position: relative;
+    transform-origin: center center;
+    display: block;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border-radius: 50%;
+    line-height: 5px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 7px;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    margin-top: 0px;
+    margin-left: 55px;
+    left: attr(value);
+    color: #fff;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 12px;
+    &::after {
+        content: "%";
+        display: block;
+        font-size: 10px;
+        letter-spacing: 0.07em;
+        margin-top: -2px;
+    }   
+}
+
+#years{
+  
+}
+#submit{
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: #03a9f4;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
